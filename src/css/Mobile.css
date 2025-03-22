@@ -1,0 +1,38 @@
+.parent{
+    display: flex;
+    padding: 1% 10% 1% 10%;
+    justify-content: space-between;
+    border: 3px solid black;
+    box-shadow: 5px 10px 5px #bbb;
+}
+
+#ratings-btn{
+    width: 40px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: green;
+}
+
+#ac-price{
+    text-decoration: line-through;
+}
+
+#price{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#child3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    height: 300px;
+}
+
+#max-price{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}

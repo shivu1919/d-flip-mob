@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#main-heading{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
