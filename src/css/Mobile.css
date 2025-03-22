@@ -1,5 +1,6 @@
 .parent{
     display: flex;
+    flex-wrap: wrap;
     padding: 1% 10% 1% 10%;
     justify-content: space-between;
     border: 3px solid black;
@@ -20,12 +21,14 @@
 
 #price{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 10px;
 }
 
 #child3{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     row-gap: 3px;
     height: 300px;
@@ -33,6 +36,7 @@
 
 #max-price{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 10px;
 }
